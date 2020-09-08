@@ -1,0 +1,117 @@
+body, html {
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: -10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #000;
+}
+
+.section1 {
+	background-image: linear-gradient(rgba(60,60,60,0.3),rgba(60,60,60,0.3)),url('iron man wallpaper.jpg');
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.section1txt {
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.section1txt span {
+	background-color: #666;
+	padding: 20px;
+}
+
+@media screen and (max-width: 960px) {
+	.section1txt {
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+}
+
+.section2 {
+	padding: 20px;
+	text-align: center;
+	background-color: #eee;
+}
+
+.section3{
+	background-image: linear-gradient(rgba(60,60,60,0.3),rgba(60,60,60,0.3)),url('table.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+	height: 70%;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.section3txt {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+}
+
+.section3txt span {
+	background-color: #666;
+	padding: 20px;
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.section4 {
+	padding: 20px;
+	text-align: center;
+	background-color: #121212;
+	color: #fff;
+}
+
+.section5{
+	background-image: linear-gradient(rgba(100,100,100,0.5),rgba(100,100,100,0.5)),url('des.png');
+	width: 100%;
+	height: 90%;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.section5txt {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+}
+
+.section5txt span {
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	background-color: #777;
+}
